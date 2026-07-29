@@ -16,7 +16,7 @@ export function Navbar() {
           {/* روابط التنقل (تظهر في الشاشات الكبيرة) */}
           <nav className="hidden md:flex gap-8 text-cleopatra-paleGold font-medium">
             <Link to="/" className="hover:text-white transition-colors">الرئيسية</Link>
-            <Link to="/" className="hover:text-white transition-colors">المتجر</Link>
+            <Link to="/store" className="hover:text-white transition-colors">المتجر</Link>
             {/* سنقوم بإنشاء مسار /store لاحقاً، حالياً نربطها بالرئيسية */}
           </nav>
 
