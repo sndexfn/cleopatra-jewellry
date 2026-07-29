@@ -1,0 +1,10 @@
+node_modules/
+.env
+.env.local
+.env.*.local
+dist/
+.vinxi/
+.output/
+.vercel/
+.netlify/
+.DS_Store
